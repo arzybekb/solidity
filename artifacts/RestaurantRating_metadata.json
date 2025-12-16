@@ -24,6 +24,30 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "hasUserRated",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -34,6 +58,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "restaurantName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rating",
+						"type": "uint256"
+					}
+				],
+				"name": "rateRestaurant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -94,11 +136,11 @@
 	},
 	"sources": {
 		"contracts/01_test_restaurant.sol": {
-			"keccak256": "0xf59aa242799f43f0f1fa1a4babfea389d3cabfb087a32d37c852dc80ef7c9ddd",
+			"keccak256": "0xbeb8de187612d9035bb9e9694ad1094ab92a28b2e1ccc861451116d692a2e09d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5828859eea0bde1a600a5c3499fcededd00fd2f26e19c9caf4c091fbe4f5a434",
-				"dweb:/ipfs/QmPurkNzKqa2KP1y4KkMYxWAmLrfkw2nQiwTaDgE2e3rjc"
+				"bzz-raw://556e25e1a320d65dd6e5bd2ac279f05e2e0c9589f5cacaadb3300e92f8da056b",
+				"dweb:/ipfs/QmS5mNYMCT5qiFHZufieV2HBNpNQtkiHqNKuhHNNtBhnyf"
 			]
 		}
 	},

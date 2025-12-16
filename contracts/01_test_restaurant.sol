@@ -13,9 +13,23 @@ contract RestaurantRating{
     }
 
     mapping(string => Restaurant) public restaurants;
+
+    mapping(address => mapping(string => bool)) public hasUserRated;
     
-    function addRestaurant(string memory restaurantName)public  {
+    function addRestaurant(string memory restaurantName) public  {
         require(msg.sender == owner, "Only owner");
-        require(restaurants[restaurantName].exist == true,"Restaurant already exist");
+        require(!restaurants[restaurantName].exist,"Restaurant already exist");
         restaurants[restaurantName] = Restaurant(0,0,true);
-}}
+    }
+
+    function rateRestaurant(string memory restaurantName,uint rating) public {
+        require(restaurants[restaurantName].exist, 'Restaurant not found');
+        require(rating >= 1 && rating <= 5, "Rating must be 1-5");
+        // require(restaurants[restaurantName].rating != 0, 'Already rated');
+        require(!hasUserRated[msg.sender][restaurantName], "Already rated");
+
+        restaurants[restaurantName].rating += rating;
+        restaurants[restaurantName].ratingCount += 1;
+        hasUserRated[msg.sender][restaurantName] = true;
+    }
+}

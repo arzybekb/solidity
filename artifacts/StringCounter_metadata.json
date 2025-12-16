@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "getStringCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "valString",
+						"type": "string"
+					}
+				],
+				"name": "setString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03_users.sol": "StringCounter"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03_users.sol": {
+			"keccak256": "0xd1f88890da6800bc27d8d63db86fb13feffa23d629914d5fda2c9a8b6c0952ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://37df3c1be8757203ffd70aba80070fb421940064c4a9d3fee5f03490463b1012",
+				"dweb:/ipfs/QmWAHkNTwwiQdfxAoZc6Kdzmeh6LC8Fhyg5EdwVy1Qjzaz"
+			]
+		}
+	},
+	"version": 1
+}

@@ -26,6 +26,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "restaurantName",
+						"type": "string"
+					}
+				],
+				"name": "getAvarageRating",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -136,11 +155,11 @@
 	},
 	"sources": {
 		"contracts/01_test_restaurant.sol": {
-			"keccak256": "0xbeb8de187612d9035bb9e9694ad1094ab92a28b2e1ccc861451116d692a2e09d",
+			"keccak256": "0x144e78b1ea27ebf63e78c0f7e2251686bdc71ae9e5f4ecf0d413816ab4949553",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://556e25e1a320d65dd6e5bd2ac279f05e2e0c9589f5cacaadb3300e92f8da056b",
-				"dweb:/ipfs/QmS5mNYMCT5qiFHZufieV2HBNpNQtkiHqNKuhHNNtBhnyf"
+				"bzz-raw://a401e88417c42aa602eb22e8650839d65abd3699d93edce67c9d698aa0b0897f",
+				"dweb:/ipfs/QmWEpxxNdoJbdHbzMzzntpVfJWKaa1mdxv39Ri1V9REpc7"
 			]
 		}
 	},

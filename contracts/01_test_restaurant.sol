@@ -4,7 +4,7 @@ pragma solidity  ^0.8.0;
 contract RestaurantRating{
     address public owner;
     constructor(){
-        owner=msg.sender;
+        owner = msg.sender;
     }
      struct Restaurant {
         uint256 rating;
@@ -31,5 +31,11 @@ contract RestaurantRating{
         restaurants[restaurantName].rating += rating;
         restaurants[restaurantName].ratingCount += 1;
         hasUserRated[msg.sender][restaurantName] = true;
+    }
+
+    function getAvarageRating (string memory restaurantName) public view returns (uint256){
+        Restaurant memory restaurant = restaurants[restaurantName];
+        if (restaurant.ratingCount == 0) return 0;
+        return restaurant.rating  / restaurant.ratingCount;
     }
 }

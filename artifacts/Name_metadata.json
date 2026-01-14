@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/03_users.sol": "Name"
+			"contracts/test_lesson 4.sol": "Name"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/03_users.sol": {
-			"keccak256": "0x678966aabcbc19ae5426bc766ae5f427d201cca83d3979cc9b9f9fe27f5a52ee",
+		"contracts/test_lesson 4.sol": {
+			"keccak256": "0xf796aa33b13464a94583a4e5e63cc1e816ca696ecad523109fb6d7d1305cb435",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e849d0748c71651cc75d3a2ff4d8fa27b1b8a2bcf1f839759ccbf4087803276e",
-				"dweb:/ipfs/QmXK4K2EFz3JGJN6KkRonX6uYUfvrvYYym8k45HFh3N94y"
+				"bzz-raw://ea8650c54ddb182c9c912ead13d6b38965e936b7259a1a96bf7d0c6126e1fc74",
+				"dweb:/ipfs/QmcX1c7rH4P1hYqCmHBFxL2KbsM8gieXBjSX1Rz7mAkbM1"
 			]
 		}
 	},

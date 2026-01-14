@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/test_lesson 4.sol": "Test"
+			"contracts/test_lesson 4.sol": "TestCont"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/test_lesson 4.sol": {
-			"keccak256": "0x3063e094d928fc8c34ffcb6f85188822baefd21e0650818af34b12bb77813d41",
+			"keccak256": "0xab7ecef434ad0ff5ef08b4c015339042b97c788d472599dbba1cd408fba717da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0580ec1abdc92eb89ff5308246018e74b7d7fad9ff360d0f585ca23479268c4f",
-				"dweb:/ipfs/QmanKeYscqUYKwhrignVbDEKfKSfn18AGLy63wYag1Qv9U"
+				"bzz-raw://45919ad436f32934f6524525646b9c580ec2718c9ff800f7e7bd9ac1972620af",
+				"dweb:/ipfs/QmarG3p5R8DzVJbJ3KPLrwFNqUYNCvF3147LZmyaMeZKU5"
 			]
 		}
 	},

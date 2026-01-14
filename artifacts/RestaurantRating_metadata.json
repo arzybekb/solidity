@@ -155,11 +155,11 @@
 	},
 	"sources": {
 		"contracts/01_test_restaurant.sol": {
-			"keccak256": "0x144e78b1ea27ebf63e78c0f7e2251686bdc71ae9e5f4ecf0d413816ab4949553",
+			"keccak256": "0x1dbeba774047f28e48c0a10a752221f2f23648a85ca8c17e037f058eed6b907f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a401e88417c42aa602eb22e8650839d65abd3699d93edce67c9d698aa0b0897f",
-				"dweb:/ipfs/QmWEpxxNdoJbdHbzMzzntpVfJWKaa1mdxv39Ri1V9REpc7"
+				"bzz-raw://962acd4a6722f0143a8c5b981a47785668c8bc6d8c2ac31f118861b2de629de1",
+				"dweb:/ipfs/QmQ7ZQVkCT9pyVJXnhoDQTUJPMiHMMNLyrW4xj1z7QtTtS"
 			]
 		}
 	},
